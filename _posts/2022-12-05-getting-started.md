@@ -4,7 +4,7 @@ author: mini
 date: 2022-12-05 19:33:00 +0800
 categories: [Blogging]
 tags: []
-pin: true
+<!-- pin: true -->
 ---
 
  블로그 이전~ 돌고돌아 다시 Chirpy 테마로 돌아왔다.😆 역시 이 테마가 가장 깔끔하고 좋은 것 같다.   
