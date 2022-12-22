@@ -2,8 +2,8 @@
 title: 정규표현식 - 괄호 안 글자
 author: mini
 date: 2022-12-13 10:20:00 +0800
-categories: [ETC, regular expression]
-tags: [regular expression]
+categories: [기타, 정규표현식]
+tags: [정규표현식]
 ---
 
 ### 괄호 안 모든 글자 추출하기 
