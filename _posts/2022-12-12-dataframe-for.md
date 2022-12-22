@@ -1,7 +1,7 @@
 ---
 title: dataframe 순회하기(데이터전처리)
 author: mini
-date: 2022-12-12 10:20:00 +0800
+date: 2022-12-12 10:10:00 +0800
 categories: [Python, pandas]
 tags: [dataframe]
 math: true

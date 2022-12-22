@@ -1,7 +1,7 @@
 ---
 title: Linux - 리다이렉션
 author: mini
-date: 2022-12-15 10:20:00 +0800
+date: 2022-12-15 10:00:00 +0800
 categories: [OS, Linux]
 tags: [linux]
 math: true

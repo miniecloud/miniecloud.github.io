@@ -1,7 +1,7 @@
 ---
 title: Dataframe 다루기
 author: mini
-date: 2022-12-11 10:20:00 +0800
+date: 2022-12-12 10:20:00 +0800
 categories: [Python, pandas]
 tags: [dataframe]
 math: true
