@@ -19,5 +19,5 @@ vendor
 node_modules
 package-lock.json
 
-# folder
+# file
 _drafts
