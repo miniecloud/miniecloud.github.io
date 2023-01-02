@@ -23,4 +23,4 @@ gem "webrick", "~> 1.7"
 
 
 #
-ruby [">=2.5", "<3.2"], :patchlevel => '353'
+ruby '3.1.0', :patchlevel => '353'
