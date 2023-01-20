@@ -3,6 +3,7 @@ title: zip파일 압축해제 & 한국어 파일명 인코딩
 author: mini
 date: 2022-12-20 10:10:00 +0800
 categories: [Python, file]
+tags : [python]
 toc : true
 ---
 
