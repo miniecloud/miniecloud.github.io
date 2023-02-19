@@ -3,7 +3,7 @@ title: 운영체제 기본 개념정리 - Process
 author: mini
 date: 2023-01-08 11:10:00 +0800
 categories: [OS]
-tags: [process]
+tags: [os, process]
 toc : true
 ---
 
@@ -24,6 +24,11 @@ OS가 프로세스 관리를 위해 필요한 정보를 저장
 
 ## Process Status
 ![ProcessStatus](/assets/img/posts/processStatus.jpeg)
+ - ready : 프로세서(CPU) 외에 모든 자원을 할당 받은 상태로 즉시 실행 가능 상태
+ - running : 프로세서와 모든 자원을 할당 받음(실행)
+ - asleep(=block) : 프로세스가 특정 이벤트 또는 필요한 자원을 기다리는 상태  
+ - terminated : 프로세스 수행이 끝난 상태로 모든 자원을 반납하고 커널에 일부 PCB만 남아있는 상태  
+ - suspended : 메모리를 뺏겨 프로세스가 중지 상태, memory image를 swap device에 보관
 
 ## 문맥 교환(Context Switching)
 Context saving : CPU에서 메모리에 저장. 
