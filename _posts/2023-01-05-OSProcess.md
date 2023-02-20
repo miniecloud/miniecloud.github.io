@@ -1,7 +1,7 @@
 ---
 title: 운영체제 기본 개념정리 - Process
 author: mini
-date: 2023-01-08 11:10:00 +0800
+date: 2023-01-05 11:10:00 +0800
 categories: [OS]
 tags: [os, process]
 toc : true
