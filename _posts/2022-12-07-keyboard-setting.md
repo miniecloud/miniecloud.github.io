@@ -2,7 +2,7 @@
 title: Windows 키 변경(Capslock-Ctrl)
 author: mini
 date: 2022-12-07 10:53:00 +0800
-categories: [OS, Windows]
+categories: [-]
 tags: [keyboard]
 math: true
 toc : true

@@ -2,7 +2,7 @@
 title: Neovim - 파이썬 자동실행 단축키 만들기(input 가능하게) 
 author: mini
 date: 2022-05-30 11:10:00 +0800
-categories: [기타]
+categories: [-,Vim]
 tags: [nvim]
 toc : true
 ---

@@ -2,7 +2,7 @@
 title: 정규표현식 - 괄호 안 글자
 author: mini
 date: 2022-12-15 10:20:00 +0800
-categories: [기타]
+categories: [-]
 tags: [regular expression]
 ---
 
