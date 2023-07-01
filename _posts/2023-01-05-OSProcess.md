@@ -7,9 +7,6 @@ tags: [os, process]
 toc : true
 ---
 
- 유튜브HPC Lab. KOREATECH님의 운영체제 강의를 공부한 내용입니다.   
-[HPC Lab. KOREATECH 운영체제](https://www.youtube.com/watch?v=EdTtGv9w2sA&list=PLBrGAFAIyf5rby7QylRc6JxU5lzQ9c4tN)
-
 ## 프로세스  
  실행을 위해 시스템(커널)에 등록된 작업, 커널에 의해 관리 받고 메모리를 할당 받음  
 => 자원들을 요청하고 할당 받을 수 있는 능동적인 개체 
@@ -49,3 +46,7 @@ Context saving과 Context restoring 두 과정을 합쳐 문맥교환이라고 �
 	- Interrupt Service  
 		인터럽트 서비스 루틴 호출
 		
+
+
+ 유튜브HPC Lab. KOREATECH님의 운영체제 강의를 공부한 내용입니다.   
+[HPC Lab. KOREATECH 운영체제](https://www.youtube.com/watch?v=EdTtGv9w2sA&list=PLBrGAFAIyf5rby7QylRc6JxU5lzQ9c4tN)

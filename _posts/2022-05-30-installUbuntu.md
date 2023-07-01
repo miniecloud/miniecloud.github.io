@@ -3,7 +3,7 @@ title: ubuntu 설치하기
 author: mini
 date: 2022-05-30 11:10:00 +0800
 categories: [OS, Linux]
-tags: [linux]
+tags: [OS, Linux]
 toc : true
 ---
 

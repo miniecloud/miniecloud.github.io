@@ -2,7 +2,7 @@
 title: 데이터프레임 엑셀 특정 시트로 변경(openpyxl)
 author: mini
 date: 2022-12-20 10:10:00 +0800
-categories: [Python, file]
+categories: [Python]
 tags: [dataframe]
 toc : true
 ---
