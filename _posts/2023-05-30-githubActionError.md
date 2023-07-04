@@ -1,7 +1,7 @@
 ---
 title: 깃허브 빌드 에러 
 author: mini
-date: 2023-06-30 11:50:00 +0800
+date: 2023-05-30 11:50:00 +0800
 categories: [-, Git]
 tags: [github, jekyll]
 toc : true
