@@ -11,16 +11,16 @@ toc : true
 설치 환경 : CentOS7
 
 ### 1. 준비
-1. java 설치
+#### 1. java 설치
 ```
 sduo yum install -y java-1.8.0-openjdk
 ```
-2. hadoop용 유저 및 설치
+#### 2. hadoop 설치
 ```
 wget http://www-us.apache.org/dist/hadoop/common/hadoop-2.7.3/hadoop-2.7.3.tar.gz
 tar -zxvf hadoop-2.7.3.tar.gz
 ```
-3. ssh 설치
+#### 3. ssh 설치
 ```
 ssh-keygen -t rsa -b 4096
 cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
@@ -28,14 +28,14 @@ chmod 0600 ~/.ssh/authorized_keys
 ```
 
 
-
+<br/><br/>
 ### 2. 환경설정
-1. /etc/hosts
+#### 1. /etc/hosts
 ```
 ip  hostname
 ip  hostname
 ```
-2. ~/.bashrc
+#### 2. ~/.bashrc
 ```
 export HADOOP_HOME=/home/user/hadoop
 export HADOOP_INSTALL=$HADOOP_HOME
@@ -47,8 +47,9 @@ export HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_HOME/lib/native
 export PATH=$PATH:$HADOOP_HOME/sbin:$HADOOP_HOME/bin
 ```
 
-3. 기타 설정
-/hadoop/etc/hadoop/hadoop-env.sh
+#### 3. 기타 설정
+/hadoop/etc/hadoop/hadoop-env.sh<br/>
+
 ```
 export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk
 
@@ -108,21 +109,20 @@ export YARN_NODEMANAGER_USER=root
 
 ➕ `source [파일명]`
 
-</br>
-※ Graphical.target 적용안될 때
-```
-yum groupinstall -y "GNOME Desktop" "Graphical Administration Tools"
-```
 
-</br>
-##### WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable 해결방법
+<br/>
+#### 실행했을때 에러
+🛑 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable 해결방법
 
-.bashrc
+~/.bashrc
 ```
 export HADOOP_OPTS=$HADOOP_OPTS -D.java.library.path=$HADOOP_NAME/lib/native
 ```
 
 
-
-
+<br/>
+※ Graphical.target 적용안될 때
+```
+yum groupinstall -y "GNOME Desktop" "Graphical Administration Tools"
+```
 
