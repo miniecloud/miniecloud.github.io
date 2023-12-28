@@ -2,7 +2,7 @@
 title: vagrant ssh - permission denied(publickey)
 author: mini
 date: 2023-07-10 11:50:00 +0800
-categories: [Data, Data Engineering]
+categories: [Etc, Data Engineering]
 tags: [data engineering]
 toc : true
 ---

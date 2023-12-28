@@ -2,7 +2,7 @@
 title: 데이터 파일럿 프로젝트 환경 구축1
 author: mini
 date: 2023-06-20 11:50:00 +0800
-categories: [Data, Data Engineering]
+categories: [Etc, Data Engineering]
 tags: [data engineering]
 toc : true
 ---

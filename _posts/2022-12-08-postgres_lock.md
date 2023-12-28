@@ -2,7 +2,7 @@
 title: Postgresql Lock 걸렸을 때
 author: mini
 date: 2022-12-08 11:20:00 +0800
-categories: [DB, PostgreSQL]
+categories: [Etc, PostgreSQL]
 tags: [postgresql]
 math: true
 toc : true

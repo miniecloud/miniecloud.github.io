@@ -2,8 +2,8 @@
 title: dataframe 순회하기(데이터전처리)
 author: mini
 date: 2022-12-12 10:10:00 +0800
-categories: [Python, pandas]
-tags: [dataframe]
+categories: [Etc]
+tags: [python-data]
 toc : true
 ---
 
@@ -18,9 +18,9 @@ import tqdm
 for index, data in tqdm(df.iterrows(), total=df.shape[0])
 ```
 
-## apply 
+## apply
 ```
-def test(x) : 
+def test(x) :
 	pass
 # 특정열 적용
 df['column'] = df['column'].apply(lambda x: test(x))

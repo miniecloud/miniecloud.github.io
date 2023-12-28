@@ -2,8 +2,8 @@
 title: Python Crawling - Proxy 사용하기
 author: mini
 date: 2022-5-16 11:50:00 +0800
-categories: [Python]
-tags: [crawling, proxy]
+categories: [Etc]
+tags: [python-data]
 toc : true
 ---
 

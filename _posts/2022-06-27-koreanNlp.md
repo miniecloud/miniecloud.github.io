@@ -2,7 +2,7 @@
 title: 한국어 전처리
 author: mini
 date: 2022-06-27 11:50:00 +0800
-categories: [-]
+categories: [Etc]
 tags: [NLP]
 toc : true
 ---

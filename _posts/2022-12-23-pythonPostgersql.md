@@ -2,7 +2,7 @@
 title: Python에서 PostgreSQL 사용하기
 author: mini
 date: 2022-12-23 11:50:00 +0800
-categories: [DB, PostgreSQL]
+categories: [Etc, PostgreSQL]
 tags: [postgresql]
 toc : true
 ---

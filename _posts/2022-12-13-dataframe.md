@@ -2,8 +2,8 @@
 title: Dataframe 다루기
 author: mini
 date: 2022-12-12 10:20:00 +0800
-categories: [Python, pandas]
-tags: [dataframe]
+categories: [Etc]
+tags: [python-data]
 math: true
 toc : true
 ---
@@ -15,16 +15,16 @@ df = pd.Dataframe(data, columns=columns)
 ```
 <br/>
 ### 2. dataframe 변환
-#### - csv to dataframe  
+#### - csv to dataframe
 ```
 pd.read_csv('test.csv', seg=',', encoding='utf-8', header=0)
 ```
--  그 외 파라미터   
-	usecols=['col1'] - 사용할 열 지정  
-	na_filter = True - 결측값 포함할지 포함하지 않을지(bool)  
-	names=['col1'] - 컬럼명 지정  
+-  그 외 파라미터
+	usecols=['col1'] - 사용할 열 지정
+	na_filter = True - 결측값 포함할지 포함하지 않을지(bool)
+	names=['col1'] - 컬럼명 지정
 
-#### - dataframe to csv 
+#### - dataframe to csv
 ```
 pd.to_csv('test.csv', encoding='utf-8', header=True, index=False)
 ```
@@ -32,7 +32,7 @@ pd.to_csv('test.csv', encoding='utf-8', header=True, index=False)
 ```python
 import pandas.io.sql as psql
 psql.read_sql(sql, db)
-```	
+```
 <br/>
 
 ### 3. dataframe 병합
@@ -41,24 +41,24 @@ psql.read_sql(sql, db)
 pd.concat(['df1','df2'])
 ```
 #### - merge
-공통 컬럼을 기준으로 병합할때  
+공통 컬럼을 기준으로 병합할때
 ```
 pd.merge(df1,df2, how='',on='id')
 ```
-> ※ merge 방법  
- 	outer : 키 합집합, sql outer조인과 유사  
-	inner : (inner join)   
-	left : 왼쪽 프레임 키 사용 (left outer join)  
-	right : 오른쪽 프레임 키 사용 (right outer join)   
-	cross : 데카르트곱   
+> ※ merge 방법
+ 	outer : 키 합집합, sql outer조인과 유사
+	inner : (inner join)
+	left : 왼쪽 프레임 키 사용 (left outer join)
+	right : 오른쪽 프레임 키 사용 (right outer join)
+	cross : 데카르트곱
 
-<br/>	
+<br/>
 ### 4. 데이터 삽입
-데이터들을 리스트로 정리하여 넣는 경우가 많아 위와같은 방법으로 데이터를 추가해준다. 
+데이터들을 리스트로 정리하여 넣는 경우가 많아 위와같은 방법으로 데이터를 추가해준다.
 ```
 df.append(pd.Series(data, index=df.columns), ignore_index=True)
 ```
-<br/>	
+<br/>
 ### 5. 데이터 변경
 #### - 특정컬럼으로 정렬
 ```
@@ -76,12 +76,12 @@ df.replace({np.nan:None})
 ```
 df['column'].str.replace(pat=r'', repl=r'', regex=True)
 ```
-* pat : 찾을 정규식표현	  
-repl : 대체값  
+* pat : 찾을 정규식표현
+repl : 대체값
 regex : True = 패턴이 정규식이라고 가정, False = 패털을 리터럴 문자열로 처리, None ...(defalut True)
 
 
-#### - 칼럼 타입 변경 
+#### - 칼럼 타입 변경
 ```
 df.astype({'column':'datetime64[ns]'})
 ```
@@ -101,19 +101,19 @@ df.replace({np.nan: None}, inplace=True)
 ```
 
 <br/>
-### 6. 기타  
+### 6. 기타
 
 #### - 중복값 처리
 ```
 df.duplicated(['column1', 'column2'], keep='first')
 ```
-* keep  
-first : 중복값 첫번째 값만 False, 나머지 중복값 True 반환  
-last : 중복값 마지막 값만 False, 처음부터 마지막 전까지는 True 반환   
+* keep
+first : 중복값 첫번째 값만 False, 나머지 중복값 True 반환
+last : 중복값 마지막 값만 False, 처음부터 마지막 전까지는 True 반환
 False : 중복값 모두 True 반환
 ```
 df.drop_duplicates(['column1'], keep='first')
-```	
+```
 * keep : 남길값 지정
 위의 keep 과 유사함
 
@@ -136,7 +136,7 @@ pd.Series(df['columns_value'].values, index=df['columns_key'].to_frame().T)
 ```
 
 #### - concat(axis=1)할때 행이 달라질때
-concat할 데이터프레임의 index를 없애주면 된다. 
+concat할 데이터프레임의 index를 없애주면 된다.
 ```
 df1.reset_index(drop=True, inplace=True)
 df2.reset_index(drop=True, inplace=True)

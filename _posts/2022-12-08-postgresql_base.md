@@ -2,7 +2,7 @@
 title: SQL 기본 정리(PostgreSQL)
 author: mini
 date: 2022-12-08 11:00:00 +0800
-categories: [DB, PostgreSQL]
+categories: [Etc, PostgreSQL]
 tags: [postgresql]
 math: true
 toc : true

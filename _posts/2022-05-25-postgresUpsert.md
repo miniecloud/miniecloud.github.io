@@ -2,7 +2,7 @@
 title: Postgresql update & insert
 author: mini
 date: 2022-05-25 11:50:00 +0800
-categories: [DB, PostgreSQL]
+categories: [Etc, PostgreSQL]
 tags: [postgresql]
 math: true
 toc : true

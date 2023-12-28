@@ -2,8 +2,8 @@
 title: 데이터프레임 엑셀 특정 시트로 변경(openpyxl)
 author: mini
 date: 2022-12-20 10:10:00 +0800
-categories: [Python]
-tags: [dataframe]
+categories: [Etc]
+tags: [python-data]
 toc : true
 ---
 
@@ -16,7 +16,7 @@ wb = openpyxl.Workbook()
 # sheet 추가
 wb.crate_sheet('sheet_name', 1) # sheet 순서
 
-# 데이터프레임 준비 
+# 데이터프레임 준비
 rows = dataframe_to_rows(df, index=False, header=True)
 
 # 데이터프레임 -> excel sheet

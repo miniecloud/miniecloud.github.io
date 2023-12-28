@@ -2,7 +2,7 @@
 title: 데이터엔지니어링 한눈에 보기 - 프레임워크 및 기타 툴
 author: mini
 date: 2023-06-10 11:50:00 +0800
-categories: [Data, Data Engineering]
+categories: [Etc, Data Engineering]
 tags: [data engineering]
 toc : true
 ---

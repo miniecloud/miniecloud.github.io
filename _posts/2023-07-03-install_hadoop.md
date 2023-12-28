@@ -2,7 +2,7 @@
 title: 하둡 설치하기(CentOS7)
 author: mini
 date: 2023-07-03 11:50:00 +0800
-categories: [Data, Data Engineering]
+categories: [Etc, Data Engineering]
 tags: [data engineering]
 toc : true
 ---
